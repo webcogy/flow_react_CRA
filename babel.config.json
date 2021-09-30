@@ -1,0 +1,15 @@
+// babel.config.json
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "usage",
+          "corejs": {
+            "version": 2
+          }
+        }
+      ],
+      "@babel/preset-react"
+    ]
+  }

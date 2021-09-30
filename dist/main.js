@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log(Array.from({length:10},((e,r)=>r)).reduce(((e,r)=>e+r)))})();
